@@ -10,4 +10,4 @@
 * Spring JPA , Complex relation 
 * Optimize Rest Controller , Single Controller
 
-As son as possible the learning video of the sample code will be released in persian language , Please be free to share your idea about this project with me ☺
+As son as possible the learning video of the sample code will be released in persian language , Please fell free to share your idea about this project with me ☺
