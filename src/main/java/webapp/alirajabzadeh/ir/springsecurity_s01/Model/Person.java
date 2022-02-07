@@ -1,12 +1,10 @@
 package webapp.alirajabzadeh.ir.springsecurity_s01.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.*;
 
 @Entity
+@NamedQuery(name = "Person.findByNationalID", query = "select s from Person s where Person.nationalIdentity = :nid")
 public class Person {
 
     public void assignPhone(Phone phone){
